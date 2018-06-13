@@ -4,7 +4,8 @@
   "description": "Node.js twitter bot designed for randomly tweeting out phrases.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "app.js"
   },
   "author": "Zane Neuschuler",
   "license": "ISC",
