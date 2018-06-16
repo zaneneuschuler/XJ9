@@ -21,7 +21,7 @@ function run() { // run is separate function because why not
 
 function postTweet() {
     status = null; // clear status
-    while (status === null || status === lastQuote || errorCode === 187) { //make sure is different
+    while (status === null || status === lastQuote) { //make sure is different
         console.log("Needs to not be a dupe")
         status = quotes[Math.floor(Math.random() * quotes.length)];
     }
